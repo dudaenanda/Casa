@@ -19,11 +19,6 @@
     margin-right: auto;
 }
 
-.background{
-    background-color: rgb(238, 238, 238);
-    
-}
-
 .movimento1{
     align-items: center;
     height: 10em;
@@ -38,39 +33,40 @@
 }
 
 .texto1{
-    font-size: 50px;
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    margin-right: 50%;
+    font-size: 45px;
+    position: relative;
+    top: 22%;
+    left: 69%;
     margin: 0;
     transform: translate(-50%, -50%);
     color: rgb(63, 62, 62);
+    font-family: Verdana;
 }
 
 .texto2{
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: 50%;
+    font-size: 45px;
+    position: relative;
+    top: 20%;
+    left: 70%;
     margin: 0;
     transform: translate(-50%, -50%);
     color: rgb(63, 62, 62);
+    font-family: Verdana;
 }
 
 .texto3{
-    font-size: 50px;
+    font-size: 45px;
     position: relative;
-    top: 75%;
-    left: 70%;
-    margin-right: auto;
-    transform: translate(-50%, -50%);
+    top: -30%;
+    right: -14%;
+    font-family: Verdana;
     color: #658042b0;
 }
 
 .divimg{
     display: block;
+    background-color: rgb(238, 238, 238);
+    animation: fadeIn 1s forwards;
 }
 
 .casaexemplo{
@@ -88,4 +84,75 @@
         opacity: 1;
         transform: translateY(-20px);
     }
+}
+
+.divdepoiscasa{
+    display: block;
+    width: 100%;
+}
+
+.textodepoisdiv{
+    font-family: Arial;
+    margin-left: 10%;
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+    margin-top: -3%;
+}
+
+.textodepoisdiv2{
+    font-family: arial;
+    margin-left: 10%;
+    font-size: 30px;
+    color: rgb(24, 24, 24);
+}
+
+.bolaverde{
+    color: rgb(79, 117, 79);
+    margin-left: 10%;
+    font-size: 55px;
+}
+
+.divpreta{
+    width: 100%;
+    background-color: rgb(30,30,36);
+    height: 50em;
+    align-items: center;
+}
+
+.textodivpreta{
+    font-size: 75px;
+    position: absolute;
+    color: white;
+    font-family: verdana;
+    margin-left: 22%;
+    margin-top: -1px;
+}
+
+.textinhos{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 70%;
+    left: 150px;
+    font-weight: 900;
+}
+
+.textinhos2{
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 70%;
+    left: 150px;
+}
+
+.textinhos3{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 48%;
+    left: 550px;
+    font-weight: 900;
 }
